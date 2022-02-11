@@ -6,13 +6,7 @@ public class MaximumTest {
     public Integer x,y,z;
     public Float a,b,c;
 
-    /**
-     *passing three integers as parameters0 to get maximum number
-     * @param x
-     * @param y
-     * @param z
-     * @return maximum
-     */
+
     int maximumOfIntegers(Integer x,Integer y, Integer z){
         this.x = x;
         this.y = y;
@@ -27,13 +21,7 @@ public class MaximumTest {
         return maximum;
     }
 
-    /**
-     * Comparing the floats and retuning the maximum number
-     * @param a
-     * @param b
-     * @param c
-     * @return maximum
-     */
+
     float maximumOfFloats(Float a,Float b, Float c){
         this.a = a;
         this.b = b;
