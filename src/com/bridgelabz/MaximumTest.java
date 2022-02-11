@@ -7,13 +7,7 @@ public class MaximumTest {
     public Float a,b,c;
     public String s1,s2,s3;
 
-    /**
-     *passing three integers as parameters0 to get maximum number
-     * @param x
-     * @param y
-     * @param z
-     * @return maximum
-     */
+
     int maximumOfIntegers(Integer x,Integer y, Integer z){
         this.x = x;
         this.y = y;
@@ -28,13 +22,7 @@ public class MaximumTest {
         return maximum;
     }
 
-    /**
-     * Comparing the floats and retuning the maximum number
-     * @param a
-     * @param b
-     * @param c
-     * @return maximum
-     */
+
     float maximumOfFloats(Float a,Float b, Float c){
         this.a = a;
         this.b = b;
@@ -49,13 +37,6 @@ public class MaximumTest {
         return maximum;
     }
 
-    /**
-     * Comparing the three strings and returning the maximum string
-     * @param s1
-     * @param s2
-     * @param s3
-     * @return maximum
-     */
     String maximumOfStrings(String s1,String s2, String s3){
         this.s1 = s1;
         this.s2 = s2;
