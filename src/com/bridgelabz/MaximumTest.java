@@ -2,16 +2,9 @@ package com.bridgelabz;
 
 
 public class MaximumTest {
-    //class level variables
+
     public Integer x,y,z;
 
-    /**
-     *passing three integers as parameters0 to get maximum number
-     * @param x
-     * @param y
-     * @param z
-     * @return maximum
-     */
     public int maximumOfIntegers(Integer x,Integer y, Integer z){
         this.x = x;
         this.y = y;
