@@ -2,11 +2,6 @@ package com.bridgelabz;
 
 
 public class MaximumTest<T extends Comparable<T>> {
-    /**
-     * Finding maximum for the n elements
-     * @param element
-     * @return maximum
-     */
 
     T maximum(T ...element ){
         T maximum = element[0];
